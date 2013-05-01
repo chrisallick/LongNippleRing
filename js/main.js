@@ -25,7 +25,7 @@ $(document).ready(function() {
 	centery();
 
 	$("#chain").css({
-		left: $("#nipples").position().left
+		left: $("#nipples").position().left + 50
 	});
 
 	$("#dogtag").css({
@@ -40,7 +40,7 @@ $(document).ready(function() {
 		centerx();
 
 		$("#chain").css({
-			left: $("#nipples").position().left
+			left: $("#nipples").position().left + 50
 		});
 
 		$("#dogtag").css({
