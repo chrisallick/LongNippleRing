@@ -1,0 +1,23 @@
+html, body { width: 100%; height: 8700px;  }
+body { background: url("../img/skin.jpg") top left repeat; }
+
+img { display: block; }
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#nipples { top: 300px; width: 600px; height: 130px; position: relative; opacity: 0; }
+#nipples .nipple { cursor: pointer; position: absolute; top: 0px; height: 130px; width: 130px; }
+#nipples .left { left: 0px; background: url("../img/leftnipple.jpg") top left no-repeat; }
+#nipples .right { right: 0px; background: url("../img/rightnipple.jpg") top left no-repeat; }
+
+#bellybutton { cursor: pointer; top: 5000px; position: absolute; width: 140px; height: 140px; background: url("../img/bellybutton.jpg"); opacity: 0; }
+
+#chain { position: absolute; top: 430px; width: 130px; height: 8000px; background: url("../img/chain.jpg") top left repeat-y; }
+#dogtag { cursor: pointer; position: absolute; top: 8430px; width: 160px; height: 240px; background: url("../img/dogtag.jpg") top left no-repeat; }
